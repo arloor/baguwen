@@ -1,7 +1,7 @@
 #! /bin/bash
 
 hosts="ti.arloor.com"
-msg="$USER commit at $(date)"
+msg="@$USER commit at $(date)"
 
 git pull && git add . && git commit -m "$msg" && git push || {
   echo -e "\033[32m 推送失败 \033[0m"
