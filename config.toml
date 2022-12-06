@@ -27,7 +27,7 @@ paginate = 10
     author = "刘港欢"
     title = "八股文"
     description = "八股文"
-    authorimage = "/img/hugo.png"
+    authorimage = "/favicon.png"
     #authorimage = "/img/dao.jfif"
     dateformat = "Jan 2, 2006"
 
