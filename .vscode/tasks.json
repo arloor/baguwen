@@ -1,0 +1,9 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "auto_deploy",
+        "command": "bash",
+        "args": ["deploy.sh"],
+        "type": "shell"
+    }]
+}
